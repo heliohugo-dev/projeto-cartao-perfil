@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(215, 223, 223);
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    padding:20px;
+    border-radius: 15%;
+    margin: 0 16px;
+}
+
+.card {
+    width: 360px;
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #d0d0d0;
+    border-radius: 12px;
+}
+
+.nome {
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.profissao {
+    padding-bottom: 8px;
+}
+
+.redes {
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.instagram{
+    text-decoration: none;
+    color:rgb(59, 107, 196);
+}
+
+.github {
+    text-decoration: none;
+    color: rgb(59, 107, 196);
+}
+
+.linkedin {
+    text-decoration: none;
+    color: rgb(59, 107, 196);
+}
+
+.contato {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
