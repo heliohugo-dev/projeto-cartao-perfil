@@ -25,17 +25,15 @@ body {
     align-items: center;
 }
 
-.avatar {
+img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
+    width: 110px;
     background-color: cornflowerblue;
     color: white;
-    font-size: 32px;
-    font-weight: bold;
-    padding:20px;
     border-radius: 15%;
+    border: 2px solid rgb(59, 107, 196);
     margin: 0 16px;
 }
 
@@ -44,13 +42,14 @@ body {
     background-color: rgb(253, 253, 253);
     text-align: center;
     padding: 50px;
+    height: 400px;
     border: 1px solid #d0d0d0;
     border-radius: 12px;
 }
 
 .nome {
     padding-top: 10px;
-    padding-bottom: 6px;
+    padding-bottom: 3px;
 }
 
 .profissao {
@@ -58,7 +57,7 @@ body {
 }
 
 .redes {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     display:flex;
     justify-content: space-between;
 }
@@ -66,23 +65,37 @@ body {
 .instagram{
     text-decoration: none;
     color:rgb(59, 107, 196);
+    background-color:aliceblue;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid rgb(59, 107, 196);
 }
 
 .github {
     text-decoration: none;
     color: rgb(59, 107, 196);
+    background-color:aliceblue;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid rgb(59, 107, 196);
 }
 
 .linkedin {
     text-decoration: none;
     color: rgb(59, 107, 196);
+    background-color:aliceblue;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid rgb(59, 107, 196);
 }
 
 .contato {
     text-decoration: none;
+    font-size: 25px;
     color: white;
     background-color: orange;
-    padding: 10px;
-    border-radius: 5px;
-    
+    padding: 15px;
+    width: 260px;
+    border-radius: 8px;
+    border: 0;
 }
